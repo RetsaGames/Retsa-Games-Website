@@ -1,5 +1,5 @@
-*{
-	background-color: black;
+body{
+	background-color: #0A0A0A;
 	font-family: "Lucida Console", "Courier New", monospace;
 	color:greenyellow;
 }
@@ -23,25 +23,26 @@
 }
 
 /* unvisited link */
-a:link {
+.content a:link {
 	color: gold;
 }
 /* visited link */
-a:visited {
+.content a:visited {
 	color: darkgoldenrod;
 }
 /* mouse over link */
-a:hover {
+.content a:hover {
 	opacity: 0.5;
 	color: darkorange;
 }
 
-.logo a {
-	background-color: white;
+.content img{
+	max-width:100%;
 }
 
-img{
-	max-width:100%;
+
+.logo a {
+	background-color: white;
 }
 
 footer img{
@@ -71,4 +72,39 @@ footer img{
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 10px;
 	padding: 10px;
+}
+
+.item{
+	border-style: outset;
+	border-color: rgb(70, 90, 40);
+	background-color: darkolivegreen;
+}
+
+.item img{
+	margin: 8px;
+}
+
+.item a { 
+	text-decoration: none;
+	text-shadow: 8px;
+	
+}
+
+/* unvisited link */
+.item a:link {
+	color: gold;
+}
+/* visited link */
+.item a:visited {
+	color: darkgoldenrod;
+}
+/* mouse over link */
+.item a:hover {
+	opacity: 0.5;
+	color: darkorange;
+}
+
+.item p{
+	margin: 4px;
+	background-color: rgb(70, 90, 40);
 }
