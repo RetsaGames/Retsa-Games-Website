@@ -76,18 +76,19 @@ footer img{
 
 .item{
 	border-style: outset;
-	border-color: rgb(70, 90, 40);
-	background-color: darkolivegreen;
+	border-color: #004200;
+	background-color: #008000;
+	padding: 0px;
 }
 
 .item img{
 	margin: 8px;
+	border: 1px solid gold;
 }
 
 .item a { 
 	text-decoration: none;
 	text-shadow: 8px;
-	
 }
 
 /* unvisited link */
@@ -106,5 +107,5 @@ footer img{
 
 .item p{
 	margin: 4px;
-	background-color: rgb(70, 90, 40);
+	background-color: #004200;
 }
